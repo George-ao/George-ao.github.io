@@ -3,7 +3,7 @@
     "name": "Yuyi Ao",
     "image": "",
     "email": "yuyiao2@illinois.edu",
-    "phone": "(1) 217-904-6366",
+    "phone": "(+1) 217-904-6366",
     "url": "https://George-ao.github.io/"
   },
   "work": [
@@ -20,13 +20,12 @@
   "education": [
     {
       "institution": "ZJU-UIUC Institute, Haining, China",
-      "location": "Haining, China",
       "url": "https://zjui.intl.zju.edu.cn/en/college",
       "major": "Computer Engineering",
       "studyType": "Undergraduate",
-      "startDate": "2021-08",
-      "endDate": "2025-06(expected)",
-      "score": "10"
+      "startDate": "2021",
+      "endDate": "2025",
+      "score": "8"
     }
   ],
   "skills": [
