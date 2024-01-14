@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: MY Portfolio for Rhetoric and Composition 102
+description: redirects to my personal website for Rhet 102
+img: assets/img/2.jpg
+redirect: https://publish.illinois.edu/yuyi2george/
 importance: 2
-category: work
-giscus_comments: true
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.

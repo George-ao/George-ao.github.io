@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: MY Portfolio for Rhetoric and Composition 101
+description: redirects to my personal website for Rhet 101
+img: assets/img/7.jpg
+redirect: https://publish.illinois.edu/yuyiao12345/
 importance: 1
-category: work
-related_publications: true
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.
@@ -44,8 +44,8 @@ To give your project a background in the portfolio page, just add the img tag to
     This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
+You can also put regular text between your rows of images.
+Say you wanted to write a little bit about your project before you posted the rest of the images.
 You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
 <div class="row justify-content-sm-center">
