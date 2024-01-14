@@ -1,7 +1,7 @@
 ---
 layout: page
-title: MY Portfolio for Rhetoric and Composition 101
-description: redirects to my personal website for Rhet 101
+title: Portfolio for RHET 101
+description: redirects to my personal website for Rhetoric and Composition 101
 img: assets/img/7.jpg
 redirect: https://publish.illinois.edu/yuyiao12345/
 importance: 1
