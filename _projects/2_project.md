@@ -2,7 +2,7 @@
 layout: page
 title: Portfolio for RHET 102
 description: redirects to my personal website for Rhetoric and Composition 102
-img: assets/img/2.jpg
+img: assets/img/4.jpg
 redirect: https://publish.illinois.edu/yuyi2george/
 importance: 2
 category: fun

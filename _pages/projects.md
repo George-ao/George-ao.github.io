@@ -2,7 +2,7 @@
 layout: page
 title: Miscellaneous
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: "Tracing My Steps: A Fun Journey of Growth and Discovery"
 nav: true
 nav_order: 3
 display_categories: [work, fun]
