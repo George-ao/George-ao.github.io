@@ -1,13 +1,14 @@
 ---
 layout: post
-title: a post with math
+title: linear regression
 date: 2024-01-29 22:00:00-0400
-description: This post is to record my learning of linear regression and logistic regression.
+description: This post record my learning of linear regression and logistic regression.
 tags: machine learning
 categories: sample-posts
 related_posts: false
 ---
 
+#### Credits: This post record my learning of UIUC CS446, taught by Prof. Han Zhao and Shenlong Wang.
 
 ## Linear Regression
 
@@ -80,4 +81,3 @@ $$
 ### *Regularization*
 In practice, we may encounter the problem that $n<d+1$. In this case, the matrix $XX^T$ is not invertible. To solve this problem, we can add a regularization term to the objective function. The objective function becomes $\underset{w}{\operatorname{argmin}} \frac{1}{2}\|Y-Xw\|^2_2+\frac{\lambda}{2}\|w\|^2_2$. The closed form solution becomes $w = (XX^T+\lambda I)^{-1}XY$. Also, regularization can make the parameters smaller and avoid overfitting.
 
-## Logistic Regression
