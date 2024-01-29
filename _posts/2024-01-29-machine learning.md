@@ -3,7 +3,7 @@ layout: post
 title: linear regression
 date: 2024-01-29 22:00:00-0400
 description: This post record my learning of linear regression and logistic regression.
-tags: machine learning
+tags: math
 categories: sample-posts
 related_posts: false
 ---
