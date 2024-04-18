@@ -29,7 +29,7 @@ through `scheduler_outputs`.
 The swap-in and swap-out blocks are decided in `scheduler.schedule()` function, which calls `scheduler._schedule()`. The scheduler will try to swap in the blocks from cpu to gpu if 
 it is possible. The scheduler will also swap out the blocks from gpu to cpu if `block_manager.can_append_slot` fails. In that case, the scheduler will preempt lower priority seq groups to make space for the higher priority seq groups. In vllm, there are two ways to preempt low priority sequence group: `recompute` and `swap`. According to the code, the current policy is `recompute` only when seq_group.get_max_num_running_seqs() == 1. 
 `scheduler.schedule()` will return `scheduler_outputs` which contains necessary information for `model_executor` to do the swap-in and swap-out.
-Following are the code showcasing what functions model_executor will call
+Following are the code showcasing what functions model_executor will call:
 
 
 1. In `model_executor.execute_model()`, it will call `driver_worker` to do the job.
@@ -69,8 +69,17 @@ Following are the code showcasing what functions model_executor will call
                 self.attn_backend.swap_blocks(self.cpu_cache[i], self.gpu_cache[i],
                                             src_to_dst)
       ```
-4. Finally, it will calls `attn_backend` and then call `Pageattention` and use `cache_ops`.(some codes are ommited)
-5. 
+
+4. In `attn_backend`(xformer in my case), it will call `Pageattention.swap_blocks` 
+      ```python
+        def swap_blocks(
+            src_kv_cache: torch.Tensor,
+            dst_kv_cache: torch.Tensor,
+            src_to_dst: Dict[int, int],
+        ) -> None:
+            PagedAttention.swap_blocks(src_kv_cache, dst_kv_cache, src_to_dst)
+      ```
+5. And then it will use `cache_ops`.(some codes are ommited) 
       ``` c++
         void swap_blocks(
             torch::Tensor& src,
