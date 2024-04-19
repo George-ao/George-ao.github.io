@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am currently on an exchange at UIUC until Fall 2024. I am actively seeking research internship opportunities for Spring and Summer 2024.
+<!-- I am currently on an exchange at UIUC until Fall 2024. I am actively seeking research internship opportunities for Spring and Summer 2024. -->
