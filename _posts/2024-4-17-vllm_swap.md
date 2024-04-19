@@ -107,14 +107,12 @@ Following are the code showcasing what functions model_executor will call:
       ```
 
     The graph might be useful to understand the vllm structure.
-    <div class="row mt-3">
+    <!-- <div class="row mt-3">
         <div class="col-sm mt-3 mt-md-0">
             {% include figure.liquid loading="eager" path="assets/img/vllm_structure.jpg" class="img-fluid rounded z-depth-1" %}
-        </div>
-    </div>
-    <div class="caption">
-        A graph of vllm structure.
-    </div>
+        </div> -->
+    <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
+    </swiper-container>
 
 
 
