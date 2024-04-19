@@ -107,9 +107,9 @@ Following are the code showcasing what functions model_executor will call:
       ```
 
     The graph might be useful to understand the vllm structure.
-    <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
-    </swiper-container>
-
+<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/vllm_structure.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+</swiper-container>
 
 
 References: [vLL framework](https://zhuanlan.zhihu.com/p/645251151); [vllm](https://github.com/vllm-project/vllm)
